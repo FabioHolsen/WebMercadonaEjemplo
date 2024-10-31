@@ -34,6 +34,8 @@ html, body {
 .cabeceraNav {
     margin: 0 15% 0 15%;
     padding: 0 32px 0 32px;
+    dispay: flex;
+    align-items: center;
 }
 
 .cabeceraNavLista {
