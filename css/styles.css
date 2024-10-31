@@ -34,9 +34,11 @@ html, body {
 .cabeceraNav {
     padding: 0 32px 0 32px;
 }
+
 .cabeceraNavLista {
     margin: 0;   
 }
+
 .banner1 {
     background-image: url(../media/banner1.jpg);
     height: 605px;
