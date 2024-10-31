@@ -43,6 +43,8 @@ html, body {
 .cabeceraNavLista {
     margin: 0;   
     height: 80px;
+    list-style: none;
+    float: left;
 }
 
 .logo {
