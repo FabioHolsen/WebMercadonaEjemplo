@@ -43,6 +43,7 @@ html, body {
 }
 .logoMercadona {
     background-image: url(../media/mercadonaLogo.svg);   
+    height: 40px;
 }
 
 .banner1 {
