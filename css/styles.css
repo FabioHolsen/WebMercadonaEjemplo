@@ -45,6 +45,7 @@ html, body {
     height: 80px;
     list-style: none;
     float: left;
+    display: flex;
 }
 
 .logo {
