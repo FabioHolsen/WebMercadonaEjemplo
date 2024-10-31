@@ -41,6 +41,9 @@ html, body {
 .cabeceraNavLista {
     margin: 0;   
 }
+.logoMercadona {
+    background-image: url(../media/mercadonaLogo.svg);   
+}
 
 .banner1 {
     background-image: url(../media/banner1.jpg);
