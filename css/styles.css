@@ -1,0 +1,278 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto&display=swap');
+.neuton-bold {
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mulish-a {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.wrapper {
+    height: 100%;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.banner1 {
+    background-image: url("/media/banner1.jpg");
+    height: 605px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: 60%;
+}
+
+.textoBanner1 h1{
+    font-size: 3.5rem;
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+.textoBanner1 {
+    
+    padding-left: 60%;
+    padding-right: 15%;
+    padding-top: 5%;
+.form1 {
+    width: 500px
+}    
+}
+.textoBanner1 p {
+    width: 450px;
+    line-height: 150%;
+    color:grey;
+}
+.inputTexto {
+    color: grey;
+    border: 0;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding:15px;
+    margin-right: 10px;
+}
+.inputButton {
+    background-color: #00ab61;
+    color: white;
+    font-weight: 700;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+}
+.banner2 {
+    background-color: white;
+    display: flex;
+    height: 300px;
+    padding: 50px;
+}
+.textoBanner2{
+    flex: 50%;
+}
+.textoBanner2 h1 {
+    width: 300px;
+    margin-left: 50%;
+}
+.textoBanner2 p {
+    width: 300px;
+    color: grey;
+    margin-left: 50%;
+}
+
+.imagenBanner2{
+    flex: 50%;
+    
+}
+
+.imagenBanner2 img {
+    height: 300px;
+    width: 500px;
+}
+
+.banner3 {
+    background-color: #e6e5e34d;
+    display: flex;
+    height: 300px;
+    padding: 50px;
+}
+.imagenBanner3 {
+    flex: 50%;
+}
+.imagenBanner3 img {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 87.7px;
+}
+.textoBanner3 {
+    flex: 50%
+}
+
+.textoBanner3 h1 {
+    padding-right: 60%;
+    line-height: 100%;
+}
+
+.textoBanner3 p {
+    width: 330px;
+    color: grey;
+}
+.textoBanner3 a {
+    color: #00ab61;
+    font-size: 1.1rem;
+}
+
+.banner4 {
+    background-image: url(/media/banner2.jpg);
+    background-position: right;
+    background-size: 60%;
+    background-color: #f3f2ee;
+    background-repeat: no-repeat;
+    height: 393px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 185px;
+    padding-right: 185px;
+    box-sizing: border-box;
+}
+
+.banner4 h1 {
+    font-size: 3rem;
+    line-height: 100%;
+    max-width: 405px;
+}
+.banner4 p {
+    color: grey;
+    max-width: 325px;
+}
+.banner4 img {
+    height: 40px;
+    width: 148px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c3037;
+    color: #fffc;
+    padding-bottom: 50px;
+}
+.links {
+    flex: auto;
+}
+.copyright {
+    flex: auto;
+}
+.contenedorListas {
+    margin: 0 5% 0 5%;
+}
+.seccionListas {
+    display: flex;
+    padding: 1% 1% 0 1%;
+}
+.lista {
+    flex: 20%;
+    padding-right: 20px;
+}
+.lista h3 {
+    color: white;
+    font-weight: 600;
+}
+.lista ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+.lista a {
+    color: #fffc;
+}
+.lista a:hover {
+    color: white;
+}
+.numCliente {
+    font-size: 27px;
+    font-family: sans-serif;
+    align-self: center;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 12px;
+}
+.iconACliente {
+    background-image: url(/media/call_center.png);
+    height: 38px;
+    width: 38px;
+    background-repeat: no-repeat;
+    margin: 5px 12px 5px 0;
+    background-size: contain;
+}
+
+
+.copyright {
+    margin: 0 15% 0 15%;
+    display: flex;
+    flex-flow: row;
+}
+.copyright p {
+    font-size: 12px;
+}
+.copyright a {
+    
+    color: #fffc;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.copyright a:hover {
+    color: grey;
+}
+.copyright ul {
+    list-style: none;
+    margin: 0;
+}
+.copyright li {
+    float: left;
+    margin: 12px 24px 12px 0;
+}
+
+.copyrightAB {
+    flex: auto;
+}
+.envelope {
+    background-image: url(media/envelope.png);
+    height: auto;
+    width: 25px;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
