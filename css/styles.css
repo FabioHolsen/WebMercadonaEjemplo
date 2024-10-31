@@ -27,6 +27,15 @@ html, body {
     flex-direction: column;
 }
 
+.cabecera {
+    height: 80px;
+    width: 100%;
+}
+.cabeceraNav {
+    margin: auto;
+    padding: 0 32px 0 32px;
+}
+
 .banner1 {
     background-image: url(../media/banner1.jpg);
     height: 605px;
