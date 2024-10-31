@@ -31,6 +31,7 @@ html, body {
     height: 80px;
     width: 100%;
 }
+
 .cabeceraNav {
     margin: 0 15% 0 15%;
     padding: 0 32px 0 32px;
@@ -41,6 +42,7 @@ html, body {
 .cabeceraNavLista {
     margin: 0;   
 }
+
 .logoMercadona {
     background-image: url(../media/mercadonaLogo.svg);   
     height: 40px;
