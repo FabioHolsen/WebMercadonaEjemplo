@@ -28,7 +28,7 @@ html, body {
 }
 
 .banner1 {
-    background-image: url("../media/banner1.jpg");
+    background-image: url(../media/banner1.jpg);
     height: 605px;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -143,7 +143,7 @@ html, body {
 }
 
 .banner4 {
-    background-image: url("../media/banner2.jpg");
+    background-image: url(../media/banner2.jpg);
     background-position: right;
     background-size: 60%;
     background-color: #f3f2ee;
