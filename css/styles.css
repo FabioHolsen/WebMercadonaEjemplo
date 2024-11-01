@@ -31,9 +31,8 @@ html, body {
     height: 80px;
     width: 100%;
 }
-
 .cabeceraNav {
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
     padding: 0 32px 0 32px;
     display: flex;
     align-items: center;
@@ -46,10 +45,18 @@ html, body {
     list-style: none;
     float: left;
     display: flex;
+    align-items: center;
+}
+
+.cabeceraNavLista li {
+    padding: 0 30px 0 0;
+}
+.cabeceraNavLista a {
+    color: #00ab61;
+    font-size: 1rem;
 }
 
 .logo {
-    height: 80px;
     background-position: 50%; 
 }
 .logoMercadona {
@@ -120,15 +127,16 @@ html, body {
 }
 .textoBanner2{
     flex: 50%;
+    margin: 10% 0 10% 0;
 }
 .textoBanner2 h1 {
     width: 300px;
-    margin-left: 50%;
+    margin-left: 30%
 }
 .textoBanner2 p {
     width: 300px;
     color: grey;
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 .imagenBanner2{
@@ -207,7 +215,7 @@ html, body {
     flex-direction: column;
     background-color: #1c3037;
     color: #fffc;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .links {
     flex: auto;
@@ -216,7 +224,7 @@ html, body {
     flex: auto;
 }
 .contenedorListas {
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
 }
 .seccionListas {
     display: flex;
@@ -251,6 +259,7 @@ html, body {
     flex-wrap: nowrap;
     align-items: center;
     margin-top: 12px;
+    min-width: 250px 
 }
 .iconACliente {
     background-image: url("../media/call_center.png");
@@ -291,6 +300,7 @@ html, body {
 .copyrightAB {
     flex: auto;
 }
+
 .envelope {
     background-image: url(media/envelope.png);
     height: auto;
