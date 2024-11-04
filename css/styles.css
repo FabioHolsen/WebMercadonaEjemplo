@@ -127,7 +127,7 @@ html, body {
 }
 .textoBanner2{
     flex: 50%;
-    margin: 10% 0 10% 0;
+    margin: 0 0 10% 0;
 }
 .textoBanner2 h1 {
     width: 300px;
